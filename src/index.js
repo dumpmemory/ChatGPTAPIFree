@@ -1,5 +1,5 @@
-const crypto = require('crypto');
-const moment = require('moment');
+import crypto from 'crypto';
+import moment from 'moment';
 
 const UPSTREAM_URL = 'https://api.openai.com/v1/chat/completions';
 const MAX_REQUESTS = 2147483647; // maximum number of requests per IP address per hour
